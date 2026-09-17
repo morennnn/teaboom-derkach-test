@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ананасовый улун — Карточка товара | Teaboom.ru</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <main class="page">
+    <section class="product-card" aria-label="Карточка товара">
+      <div class="product-card__gallery">
+        <div class="product-card__image-wrapper">
+          <img src="images/ananas-ulun.webp" alt="Ананасовый улун" class="product-card__image" />
+          <span class="product-card__badge">-10%</span>
+        </div>
+      </div>
+      <div class="product-card__info">
+        <nav class="product-card__category" aria-label="Категория">
+          <a href="#">Улун</a> / <a href="#">Ароматизированный чай</a>
+        </nav>
+
+        <h1 class="product-card__title">Ананасовый улун</h1>
+
+        <div class="product-card__sku">
+          Артикул: <span id="product-sku">01306</span>
+        </div>
+        <div class="product-card__option-group">
+          <label class="product-card__option-label">Фасовка:</label>
+          <div class="product-card__options" role="radiogroup" aria-label="Выбор фасовки">
+            <button type="button" class="product-card__option-btn active" data-price="326,40 ₽"
+              data-old-price="349,20 ₽" data-sku="01306" aria-checked="true" role="radio">
+              100 г
+            </button>
+            <button type="button" class="product-card__option-btn" data-price="1 432 ₽" data-old-price="1 646 ₽"
+              data-sku="01307" aria-checked="false" role="radio">
+              500 г
+            </button>
+            <button type="button" class="product-card__option-btn" data-price="2 064 ₽" data-old-price="2 592 ₽"
+              data-sku="01308" aria-checked="false" role="radio">
+              1000 г
+            </button>
+            <button type="button" class="product-card__option-btn" data-price="6 320 ₽" data-old-price="8 710 ₽"
+              data-sku="01309" aria-checked="false" role="radio">
+              5000 г
+            </button>
+          </div>
+        </div>
+        <div class="product-card__purchase-block">
+          <div class="product-card__price-box">
+            <span class="product-card__current-price" id="product-price">326,40 ₽</span>
+            <span class="product-card__old-price" id="product-old-price">349,20 ₽</span>
+          </div>
+          <button type="button" class="product-card__add-to-cart-btn" id="add-to-cart-btn">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="9" cy="21" r="1"></circle>
+              <circle cx="20" cy="21" r="1"></circle>
+              <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+            </svg>
+            <span>В корзину</span>
+          </button>
+        </div>
+        <div class="product-card__short-description">
+          <h2 class="product-card__description-title">Коротко о товаре</h2>
+          <p class="product-card__text">
+            Светлый Фуцзяньский улун с ароматом ананаса. В сухом виде — красивый крупный лист изумрудного цвета.
+            Классическая нота улуна переплетается с яркой ананасовой нотой.
+          </p>
+          <p class="product-card__composition">
+            <strong>Состав:</strong> китайский бирюзовый чай, цукаты, натуральные ароматические масла.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
